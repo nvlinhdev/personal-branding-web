@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; background: #ffffff; }
+    a { color: #2563eb; }
+    a:hover { color: #0891b2; }
+  </style>
+</helmet>
+<div style="font-family:'Be Vietnam Pro',sans-serif;background:#ffffff;color:#0f172a">
+
+  <header style="display:flex;align-items:center;justify-content:space-between;padding:20px 48px;border-bottom:1px solid #e5e7eb;background:rgba(255,255,255,0.85);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10;flex-wrap:wrap;gap:16px">
+    <a href="Home.dc.html" style="display:flex;align-items:center;gap:10px;text-decoration:none">
+      <div style="width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,#2563eb,#06b6d4);color:#ffffff;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px">NVL</div>
+      <div style="font-weight:700;font-size:16px;color:#0f172a">Nguyễn Văn Linh</div>
+    </a>
+    <nav style="display:flex;gap:32px;flex-wrap:wrap">
+      <a href="Home.dc.html" style="text-decoration:none;font-size:15px;font-weight:500;color:#334155">Home</a>
+      <a href="About.dc.html" style="text-decoration:none;font-size:15px;font-weight:500;color:#334155">About</a>
+      <a href="Projects.dc.html" style="text-decoration:none;font-size:15px;font-weight:600;color:#2563eb">Projects</a>
+      <a href="Contact.dc.html" style="text-decoration:none;font-size:15px;font-weight:500;color:#334155">Contact</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:16px">
+      <div style="display:flex;border:1px solid #e5e7eb;border-radius:8px;overflow:hidden;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600">
+        <span style="padding:6px 10px;background:linear-gradient(135deg,#2563eb,#0891b2);color:#fff">VI</span>
+        <span style="padding:6px 10px;color:#64748b">EN</span>
+      </div>
+      <a href="https://github.com/nvlinhdev" style="width:32px;height:32px;border-radius:8px;border:1px solid #e5e7eb;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:#334155;text-decoration:none;transition:all .2s" style-hover="border-color:#2563eb;color:#2563eb;transform:translateY(-2px)">GH</a>
+      <a href="https://linkedin.com/in/nvlinhdev" style="width:32px;height:32px;border-radius:8px;border:1px solid #e5e7eb;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:#334155;text-decoration:none;transition:all .2s" style-hover="border-color:#2563eb;color:#2563eb;transform:translateY(-2px)">in</a>
+    </div>
+  </header>
+
+  <section style="max-width:800px;margin:0 auto;padding:56px 48px 0">
+    <a href="Projects.dc.html" style="font-size:14px;font-weight:600;text-decoration:none">← Tất cả dự án</a>
+  </section>
+
+  <section style="max-width:800px;margin:0 auto;padding:24px 48px 40px;border-bottom:1px solid #e5e7eb">
+    <h1 style="font-size:32px;font-weight:800;margin:0 0 20px;line-height:1.25">LAOID – Hệ thống định danh quốc gia và Single Sign-On (SSO)</h1>
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <span style="font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:600;padding:6px 14px;border-radius:16px;background:#eff6ff;color:#2563eb">02/2026 – Nay</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:600;padding:6px 14px;border-radius:16px;background:#f1f5f9;color:#334155">Backend Developer / DevOps Engineer</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:600;padding:6px 14px;border-radius:16px;background:#f1f5f9;color:#334155">Team 10 người</span>
+    </div>
+  </section>
+
+  <section style="max-width:800px;margin:0 auto;padding:40px 48px">
+    <h2 style="font-size:20px;font-weight:700;margin:0 0 14px">Mô tả</h2>
+    <p style="font-size:16px;line-height:1.8;color:#334155;margin:0">Xây dựng nền tảng định danh số quốc gia và hệ thống SSO cho phép người dùng xác thực một lần và truy cập nhiều ứng dụng trong hệ sinh thái. Quản lý phiên tập trung, bảo mật cao, mở rộng phục vụ lưu lượng lớn.</p>
+  </section>
+
+  <section style="max-width:800px;margin:0 auto;padding:0 48px 40px">
+    <h2 style="font-size:20px;font-weight:700;margin:0 0 16px">Trách nhiệm</h2>
+    <ul style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:12px">
+      <sc-for list="{{ responsibilities }}" as="r" hint-placeholder-count="9">
+        <li style="font-size:15px;line-height:1.7;color:#334155">{{ r }}</li>
+      </sc-for>
+    </ul>
+  </section>
+
+  <section style="max-width:800px;margin:0 auto;padding:0 48px 72px">
+    <h2 style="font-size:20px;font-weight:700;margin:0 0 16px">Công nghệ sử dụng</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:10px">
+      <sc-for list="{{ tech }}" as="t" hint-placeholder-count="12">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:13px;padding:7px 14px;border-radius:18px;background:#ecfeff;color:#0891b2;border:1px solid #a5f3fc;transition:all .2s;display:inline-block" style-hover="transform:translateY(-3px) scale(1.04);box-shadow:0 8px 16px rgba(8,145,178,0.2);border-color:#0891b2">{{ t }}</span>
+      </sc-for>
+    </div>
+  </section>
+
+  <section style="max-width:800px;margin:0 auto;padding:0 48px 80px">
+    <a href="Contact.dc.html" style="display:inline-block;padding:14px 28px;background:linear-gradient(135deg,#2563eb,#0891b2);color:#fff;border-radius:10px;text-decoration:none;font-weight:600;font-size:15px;box-shadow:0 8px 24px rgba(37,99,235,0.28);transition:transform .25s,box-shadow .25s" style-hover="transform:translateY(-3px);box-shadow:0 12px 28px rgba(37,99,235,0.4)">Liên hệ với tôi về dự án này</a>
+  </section>
+
+  <footer style="background:#0f172a;color:#f8fafc;padding:48px;display:flex;flex-direction:column;align-items:center;gap:16px;background-image:linear-gradient(#0f172a,#0f172a),linear-gradient(90deg,#2563eb,#06b6d4);background-origin:border-box;background-clip:padding-box,border-box;border-top:3px solid transparent">
+    <div style="display:flex;gap:24px;flex-wrap:wrap">
+      <a href="https://github.com/nvlinhdev" style="color:#f8fafc;text-decoration:none;font-size:14px">GitHub</a>
+      <a href="https://linkedin.com/in/nvlinhdev" style="color:#f8fafc;text-decoration:none;font-size:14px">LinkedIn</a>
+      <a href="mailto:linhnv.work.dev@gmail.com" style="color:#f8fafc;text-decoration:none;font-size:14px">Email</a>
+    </div>
+    <div style="font-size:13px;color:#94a3b8">© 2026 Nguyễn Văn Linh</div>
+  </footer>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      responsibilities: [
+        'Phát triển dịch vụ xác thực/phân quyền SSO cho toàn hệ sinh thái ứng dụng.',
+        'Xây dựng luồng SSO dựa trên OAuth2/JWT.',
+        'Quản lý phiên: Access/Refresh Token, Token Rotation/Exchange, Revoke, Logout toàn hệ thống.',
+        'Đồng bộ phiên bất đồng bộ bằng Redis Streams.',
+        'Thiết lập Rate Limiting và Session Management.',
+        'Nâng cấp Java 17 → 21 với Virtual Threads.',
+        'Performance tuning HikariCP và Lettuce.',
+        'Đạt hơn 3.000 requests/giây (RPS).'
+      ],
+      tech: ['Java 21', 'Spring Boot', 'OAuth2', 'JWT', 'MariaDB', 'Redis Cache', 'Redis Streams', 'Virtual Threads', 'HikariCP', 'Lettuce', 'Docker', 'RESTful API', 'Git']
+    };
+  }
+}
+</script>
+</body>
+</html>

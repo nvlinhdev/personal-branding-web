@@ -1,0 +1,196 @@
+{
+  "common": {
+    "nav": { "home": "Home", "about": "About", "projects": "Projects", "contact": "Contact" },
+    "footer": { "name": "Nguyễn Văn Linh" }
+  },
+  "home": {
+    "badge": "Backend Developer",
+    "name": "Nguyễn Văn Linh",
+    "bio": "Middle Backend Developer với hơn 3 năm kinh nghiệm phát triển hệ thống doanh nghiệp sử dụng Java Spring Boot. Thành thạo Microservices, RESTful API, PostgreSQL, Docker, Git và AWS; phối hợp hiệu quả với BrSE, khách hàng và các thành viên dự án theo mô hình Agile/Scrum.",
+    "ctaProjects": "Xem dự án",
+    "ctaContact": "Liên hệ ngay",
+    "stats": [
+      { "value": "3+", "label": "năm kinh nghiệm backend" },
+      { "value": "5", "label": "hệ thống production đã tham gia" },
+      { "value": "3.000+", "label": "requests/giây đã tối ưu (LAOID)" }
+    ],
+    "techStackTitle": "Công nghệ chính",
+    "techStack": ["Java", "Spring Boot", "Microservices", "PostgreSQL", "Docker", "AWS", "Kafka", "Redis"],
+    "featuredTitle": "Dự án nổi bật",
+    "viewAllProjects": "Xem tất cả dự án →",
+    "featuredSlugs": ["laoone", "laoid"],
+    "closing": {
+      "title": "Đang tìm kiếm một Backend Developer đáng tin cậy?",
+      "subtitle": "Rất vui được trao đổi thêm về kinh nghiệm và các dự án đã triển khai.",
+      "button": "Liên hệ với tôi"
+    }
+  },
+  "about": {
+    "eyebrow": "GIỚI THIỆU",
+    "title": "Về tôi",
+    "bio": "Middle Backend Developer với hơn 3 năm kinh nghiệm phát triển hệ thống doanh nghiệp sử dụng Java Spring Boot. Có kinh nghiệm tham gia phân tích yêu cầu nghiệp vụ, đề xuất giải pháp kỹ thuật, thiết kế và phát triển Microservices, RESTful API và tích hợp hệ thống trên môi trường production. Thành thạo PostgreSQL, có khả năng xây dựng Stored Procedure, làm việc với Docker, Git và AWS. Có khả năng giao tiếp, phối hợp hiệu quả với BrSE, khách hàng và các thành viên trong dự án theo mô hình Agile/Scrum.",
+    "education": {
+      "label": "HỌC VẤN",
+      "school": "Đại học FPT",
+      "majorLabel": "CHUYÊN NGÀNH",
+      "major": "Kỹ thuật phần mềm"
+    },
+    "skillsTitle": "Kỹ năng",
+    "skillGroups": [
+      { "label": "Ngôn ngữ & Framework", "items": ["Java Core", "Spring Framework", "Spring Boot", "ReactJS", "JavaScript", "HTML5", "CSS3"] },
+      { "label": "Kiến trúc & API", "items": ["RESTful API", "Microservices", "gRPC"] },
+      { "label": "Database", "items": ["PostgreSQL", "MySQL", "MariaDB", "SQL Server", "Stored Procedure"] },
+      { "label": "Hạ tầng dữ liệu & Caching", "items": ["Redis", "Redis Streams", "Kafka", "Elasticsearch"] },
+      { "label": "Bảo mật & Xác thực", "items": ["OAuth2", "JWT", "SSO Authentication"] },
+      { "label": "DevOps & Hạ tầng", "items": ["Docker", "Git", "GitLab CI/CD", "AWS EC2/Lambda/S3/RDS", "Linux Server", "Nginx"] },
+      { "label": "Monitoring", "items": ["Prometheus", "Grafana", "Node Exporter", "Redis Exporter", "MySQL Exporter"] }
+    ],
+    "experienceTitle": "Kinh nghiệm làm việc"
+  },
+  "projects": {
+    "eyebrow": "DỰ ÁN",
+    "title": "Các dự án đã tham gia",
+    "subtitle": "5 dự án hệ thống doanh nghiệp, từ ứng dụng monolith đến kiến trúc Microservices quy mô lớn.",
+    "viewDetail": "Xem chi tiết →"
+  },
+  "projectDetail": {
+    "backLink": "← Tất cả dự án",
+    "descriptionTitle": "Mô tả",
+    "responsibilitiesTitle": "Trách nhiệm",
+    "techTitle": "Công nghệ sử dụng",
+    "contactCta": "Liên hệ với tôi về dự án này",
+    "notFound": {
+      "title": "Không tìm thấy dự án",
+      "subtitle": "Dự án bạn tìm không tồn tại.",
+      "backLink": "← Về danh sách dự án"
+    }
+  },
+  "contact": {
+    "eyebrow": "LIÊN HỆ",
+    "title": "Hãy kết nối với tôi",
+    "subtitle": "Rất vui được trao đổi về cơ hội hợp tác hoặc công việc. Chọn một trong các kênh dưới đây.",
+    "emailLabel": "Email",
+    "githubLabel": "GitHub",
+    "linkedinLabel": "LinkedIn"
+  },
+  "notFound": {
+    "title": "404 – Không tìm thấy trang",
+    "subtitle": "Trang bạn tìm không tồn tại.",
+    "backHome": "Về trang chủ"
+  },
+  "projectsData": [
+    {
+      "slug": "onlinequizz",
+      "time": "05/2023 – 03/2024",
+      "title": "ONLINEQUIZZ – Hệ thống thi trắc nghiệm trực tuyến",
+      "role": "Fullstack Developer",
+      "team": "Team 4 người",
+      "homeDesc": null,
+      "listDesc": "Xây dựng hệ thống quản lý ngân hàng câu hỏi và tổ chức thi trực tuyến cho học sinh, sinh viên.",
+      "aboutDesc": "Xây dựng hệ thống quản lý ngân hàng câu hỏi và tổ chức thi trực tuyến. Phát triển backend bằng Java Servlet, JSP, JDBC; xây dựng đăng ký/đăng nhập, tích hợp Google Login, tối ưu hiệu năng.",
+      "detailDescription": "Xây dựng hệ thống quản lý ngân hàng câu hỏi và tổ chức thi trực tuyến dành cho học sinh và sinh viên. Hệ thống hỗ trợ tạo đề thi, chấm điểm tự động và quản lý tài khoản người dùng.",
+      "responsibilities": [
+        "Phát triển backend bằng Java Servlet, JSP, JDBC.",
+        "Thiết kế cơ sở dữ liệu và xây dựng các chức năng quản lý đề thi.",
+        "Xây dựng chức năng đăng ký, đăng nhập và xác thực người dùng.",
+        "Tích hợp Google Login.",
+        "Tối ưu mã nguồn và cải thiện hiệu năng hệ thống.",
+        "Tham gia xử lý lỗi và hỗ trợ triển khai sản phẩm."
+      ],
+      "techShort": ["Java Servlet", "JSP", "JDBC", "MySQL"],
+      "techFull": ["Java Servlet", "JSP", "JDBC", "MySQL", "HTML", "CSS", "JavaScript"]
+    },
+    {
+      "slug": "transitlink",
+      "time": "04/2024 – 09/2025",
+      "title": "TRANSITLINK – Hệ thống điều phối xe trung chuyển thông minh",
+      "role": "Backend Developer",
+      "team": "Team 6 người",
+      "homeDesc": null,
+      "listDesc": "Quản lý và điều phối xe trung chuyển, hỗ trợ tìm kiếm, theo dõi và vận hành dữ liệu theo thời gian thực.",
+      "aboutDesc": "Xây dựng backend Spring Boot, RESTful API, Redis Cache, Elasticsearch cho tìm kiếm, realtime bằng WebSocket STOMP; triển khai Docker Compose, Nginx, GitLab CI/CD.",
+      "detailDescription": "Xây dựng hệ thống quản lý và điều phối xe trung chuyển, hỗ trợ tìm kiếm, theo dõi và vận hành dữ liệu theo thời gian thực. Hệ thống phục vụ nhu cầu vận hành đội xe với khối lượng dữ liệu lớn.",
+      "responsibilities": [
+        "Xây dựng backend bằng Java Spring Boot.",
+        "Thiết kế cơ sở dữ liệu và xây dựng RESTful API.",
+        "Tích hợp Redis Cache nâng cao hiệu năng hệ thống.",
+        "Tích hợp Elasticsearch phục vụ tìm kiếm dữ liệu.",
+        "Xây dựng chức năng realtime bằng WebSocket STOMP.",
+        "Tài liệu hóa API bằng Swagger.",
+        "Triển khai ứng dụng trên VPS bằng Docker Compose.",
+        "Thiết lập Nginx Reverse Proxy và HTTPS.",
+        "Xây dựng quy trình GitLab CI/CD."
+      ],
+      "techShort": ["Java", "Spring Boot", "Redis", "Elasticsearch", "Docker"],
+      "techFull": ["Java", "Spring Boot", "Redis", "Elasticsearch", "WebSocket", "Swagger", "Docker", "Nginx", "GitLab CI/CD", "MySQL"]
+    },
+    {
+      "slug": "partner-warehouse-asset",
+      "time": "10/2025 – 02/2026",
+      "title": "Hệ thống quản lý đối tác, kho và tài sản",
+      "role": "Backend Developer",
+      "team": "Team 10+ người",
+      "homeDesc": null,
+      "listDesc": "Quản lý đối tác, kho và tài sản theo kiến trúc Microservices phục vụ khách hàng doanh nghiệp.",
+      "aboutDesc": "Phát triển Microservices bằng Spring Boot, RESTful API, gRPC; tích hợp SSO/OAuth2/JWT và Kafka xử lý bất đồng bộ cho khách hàng doanh nghiệp.",
+      "detailDescription": "Tham gia xây dựng hệ thống quản lý đối tác, kho và tài sản theo kiến trúc Microservices phục vụ khách hàng doanh nghiệp. Hệ thống tích hợp nhiều dịch vụ độc lập, xử lý dữ liệu quy mô lớn.",
+      "responsibilities": [
+        "Phân tích yêu cầu nghiệp vụ và tham gia thiết kế giải pháp kỹ thuật.",
+        "Phát triển các Microservices sử dụng Java Spring Boot.",
+        "Thiết kế và triển khai RESTful API, gRPC.",
+        "Tích hợp SSO Authentication, OAuth2 và JWT.",
+        "Tích hợp Kafka phục vụ xử lý bất đồng bộ giữa các hệ thống.",
+        "Tối ưu hiệu năng và xử lý lỗi trong môi trường production.",
+        "Phối hợp với BA, Tester và DevOps trong quá trình phát triển."
+      ],
+      "techShort": ["Java", "Spring Boot", "Kafka", "gRPC", "OAuth2"],
+      "techFull": ["Java", "Spring Boot", "Microservices", "Kafka", "gRPC", "OAuth2", "JWT", "PostgreSQL", "Docker", "GitLab CI/CD"]
+    },
+    {
+      "slug": "laoone",
+      "time": "03/2026 – Nay",
+      "title": "LAOONE – Super App và hệ thống CMS quản trị nội dung",
+      "role": "Backend Lead / DevOps Engineer",
+      "team": "Team 15 người",
+      "homeDesc": "Nền tảng Super App tích hợp nhiều Mini App, hệ thống CMS quản trị nội dung và thông báo đa kênh.",
+      "listDesc": "Nền tảng Super App tích hợp nhiều Mini App và hệ thống CMS quản trị nội dung, thông báo, đồng bộ dữ liệu tập trung.",
+      "aboutDesc": "Dẫn dắt phát triển backend Super App, Authentication đa kênh (Email/SMS OTP), Notification + FCM, CMS quản trị nội dung, tối ưu PostgreSQL/Redis.",
+      "detailDescription": "Xây dựng nền tảng Super App tích hợp nhiều Mini App và hệ thống CMS cho phép quản trị nội dung, cấu hình giao diện, quản lý thông báo và đồng bộ dữ liệu tập trung. Hệ thống phục vụ hàng nghìn người dùng với kiến trúc mở rộng linh hoạt và khả năng tùy biến theo từng dịch vụ.",
+      "responsibilities": [
+        "Phân tích yêu cầu nghiệp vụ, thiết kế giải pháp kỹ thuật và dẫn dắt phát triển các dịch vụ backend.",
+        "Thiết kế và triển khai hệ thống xác thực người dùng (Authentication & Authorization) hỗ trợ Email OTP và SMS OTP.",
+        "Xây dựng hệ thống Notification đa kênh, quản lý Template thông báo và tích hợp Firebase Cloud Messaging (FCM).",
+        "Phát triển cơ chế đồng bộ dữ liệu người dùng và dữ liệu nghiệp vụ từ nền tảng Mini App vào hệ thống trung tâm.",
+        "Xây dựng CMS cho phép quản trị nội dung, cấu hình giao diện, theme và các thành phần hiển thị trên ứng dụng.",
+        "Thiết kế và tối ưu cơ sở dữ liệu PostgreSQL, Redis Cache nhằm nâng cao hiệu năng truy xuất và khả năng chịu tải.",
+        "Thiết lập môi trường triển khai, container hóa dịch vụ bằng Docker và xây dựng quy trình vận hành hệ thống.",
+        "Thực hiện review code, hỗ trợ kỹ thuật cho các thành viên trong nhóm và xử lý các vấn đề hiệu năng, bảo mật hệ thống."
+      ],
+      "techShort": ["Java", "Spring Boot", "PostgreSQL", "Redis", "FCM"],
+      "techFull": ["Java", "Spring Boot", "PostgreSQL", "Redis Cache", "Docker", "Firebase Cloud Messaging (FCM)", "RESTful API", "Git"]
+    },
+    {
+      "slug": "laoid",
+      "time": "02/2026 – Nay",
+      "title": "LAOID – Hệ thống định danh quốc gia và Single Sign-On (SSO)",
+      "role": "Backend Developer / DevOps Engineer",
+      "team": "Team 10 người",
+      "homeDesc": "Hệ thống SSO quản lý phiên tập trung, đạt hơn 3.000 RPS với Java 21 Virtual Threads.",
+      "listDesc": "Nền tảng định danh số quốc gia và SSO, quản lý phiên tập trung, bảo mật cao, đạt hơn 3.000 RPS.",
+      "aboutDesc": "Xây dựng luồng SSO OAuth2/JWT, quản lý phiên với Redis Streams, nâng cấp Java 21 Virtual Threads, đạt hơn 3.000 requests/giây.",
+      "detailDescription": "Xây dựng nền tảng định danh số quốc gia và hệ thống SSO cho phép người dùng xác thực một lần và truy cập nhiều ứng dụng trong hệ sinh thái. Quản lý phiên tập trung, bảo mật cao, mở rộng phục vụ lưu lượng lớn.",
+      "responsibilities": [
+        "Phát triển dịch vụ xác thực/phân quyền SSO cho toàn hệ sinh thái ứng dụng.",
+        "Xây dựng luồng SSO dựa trên OAuth2/JWT.",
+        "Quản lý phiên: Access/Refresh Token, Token Rotation/Exchange, Revoke, Logout toàn hệ thống.",
+        "Đồng bộ phiên bất đồng bộ bằng Redis Streams.",
+        "Thiết lập Rate Limiting và Session Management.",
+        "Nâng cấp Java 17 → 21 với Virtual Threads.",
+        "Performance tuning HikariCP và Lettuce.",
+        "Đạt hơn 3.000 requests/giây (RPS)."
+      ],
+      "techShort": ["Java 21", "OAuth2", "JWT", "Redis Streams", "MariaDB"],
+      "techFull": ["Java 21", "Spring Boot", "OAuth2", "JWT", "MariaDB", "Redis Cache", "Redis Streams", "Virtual Threads", "HikariCP", "Lettuce", "Docker", "RESTful API", "Git"]
+    }
+  ]
+}

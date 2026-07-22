@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; background: #ffffff; }
+    a { color: #2563eb; }
+    a:hover { color: #0891b2; }
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes floatY { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+    @keyframes glowPulse { 0%,100% { opacity: .22; transform: scale(1); } 50% { opacity: .4; transform: scale(1.08); } }
+    @keyframes gradientShift { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+  </style>
+</helmet>
+<div style="font-family:'Be Vietnam Pro',sans-serif;background:#ffffff;color:#0f172a;overflow-x:hidden">
+
+  <header style="display:flex;align-items:center;justify-content:space-between;padding:20px 48px;border-bottom:1px solid #e5e7eb;background:rgba(255,255,255,0.85);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10;flex-wrap:wrap;gap:16px">
+    <a href="Home (EN).dc.html" style="display:flex;align-items:center;gap:10px;text-decoration:none">
+      <div style="width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,#2563eb,#06b6d4);color:#ffffff;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px">NVL</div>
+      <div style="font-weight:700;font-size:16px;color:#0f172a">Nguyen Van Linh</div>
+    </a>
+    <nav style="display:flex;gap:32px;flex-wrap:wrap">
+      <a href="Home (EN).dc.html" style="text-decoration:none;font-size:15px;font-weight:600;color:#2563eb">Home</a>
+      <a href="About.dc.html" style="text-decoration:none;font-size:15px;font-weight:500;color:#334155">About</a>
+      <a href="Projects.dc.html" style="text-decoration:none;font-size:15px;font-weight:500;color:#334155">Projects</a>
+      <a href="Contact.dc.html" style="text-decoration:none;font-size:15px;font-weight:500;color:#334155">Contact</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:16px">
+      <div style="display:flex;border:1px solid #e5e7eb;border-radius:8px;overflow:hidden;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600">
+        <a href="Home.dc.html" style="padding:6px 10px;color:#64748b;text-decoration:none">VI</a>
+        <a href="Home (EN).dc.html" style="padding:6px 10px;background:linear-gradient(135deg,#2563eb,#0891b2);color:#fff;text-decoration:none">EN</a>
+      </div>
+      <a href="https://github.com/nvlinhdev" style="width:32px;height:32px;border-radius:8px;border:1px solid #e5e7eb;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:#334155;text-decoration:none;transition:all .2s" style-hover="border-color:#2563eb;color:#2563eb;transform:translateY(-2px)">GH</a>
+      <a href="https://linkedin.com/in/nvlinhdev" style="width:32px;height:32px;border-radius:8px;border:1px solid #e5e7eb;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:#334155;text-decoration:none;transition:all .2s" style-hover="border-color:#2563eb;color:#2563eb;transform:translateY(-2px)">in</a>
+    </div>
+  </header>
+
+  <section style="position:relative;max-width:1120px;margin:0 auto;padding:96px 48px 72px;display:flex;align-items:center;gap:64px;flex-wrap:wrap;background-image:radial-gradient(circle,rgba(37,99,235,0.14) 1.5px,transparent 1.5px);background-size:28px 28px;background-position:-10px -10px">
+    <div style="flex:1;min-width:320px">
+      <div style="display:inline-block;padding:6px 14px;border-radius:20px;background:#eff6ff;color:#2563eb;font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;margin-bottom:24px">Backend Developer</div>
+      <h1 style="font-size:56px;font-weight:800;line-height:1.1;margin:0 0 20px;background:linear-gradient(90deg,#2563eb,#06b6d4,#2563eb);background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:gradientShift 5s linear infinite">Nguyen Van Linh</h1>
+      <p style="font-size:18px;line-height:1.75;color:#334155;margin:0 0 32px;max-width:560px">Middle Backend Developer with 3+ years of experience building enterprise systems using Java Spring Boot. Experienced in designing and developing Microservices, RESTful APIs, and system integrations; proficient in PostgreSQL, Docker, Git, and AWS; a strong communicator in Agile/Scrum settings.</p>
+      <div style="display:flex;gap:16px;flex-wrap:wrap">
+        <a href="Projects.dc.html" style="padding:14px 28px;background:linear-gradient(135deg,#2563eb,#0891b2);color:#fff;border-radius:10px;text-decoration:none;font-weight:600;font-size:15px;box-shadow:0 8px 24px rgba(37,99,235,0.28);transition:transform .25s,box-shadow .25s" style-hover="transform:translateY(-3px);box-shadow:0 12px 28px rgba(37,99,235,0.4)">View Projects</a>
+        <a href="Contact.dc.html" style="padding:14px 28px;border:1px solid #cbd5e1;color:#0f172a;border-radius:10px;text-decoration:none;font-weight:600;font-size:15px;transition:all .25s" style-hover="border-color:#2563eb;color:#2563eb;transform:translateY(-3px)">Get in Touch</a>
+      </div>
+    </div>
+    <div style="position:relative;width:200px;height:200px;flex-shrink:0">
+      <div style="position:absolute;inset:-20px;border-radius:9999px;background:linear-gradient(135deg,#2563eb,#06b6d4);filter:blur(22px);animation:glowPulse 3.5s ease-in-out infinite"></div>
+      <div style="position:relative;width:200px;height:200px;border-radius:9999px;background:linear-gradient(135deg,#2563eb,#0891b2);display:flex;align-items:center;justify-content:center;animation:floatY 5s ease-in-out infinite">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:52px;font-weight:700;color:#fff">NVL</span>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#f5f9ff;border-top:1px solid #e5e7eb;border-bottom:1px solid #e5e7eb;padding:40px 48px">
+    <div style="max-width:1120px;margin:0 auto;display:grid;grid-template-columns:repeat(3,minmax(200px,1fr));gap:24px">
+      <div style="text-align:center;transition:transform .25s" style-hover="transform:translateY(-4px)">
+        <div style="font-size:36px;font-weight:800;color:#2563eb">3+</div>
+        <div style="font-size:14px;color:#334155;margin-top:6px">years of backend experience</div>
+      </div>
+      <div style="text-align:center;border-left:1px solid #dbe4f3;border-right:1px solid #dbe4f3;transition:transform .25s" style-hover="transform:translateY(-4px)">
+        <div style="font-size:36px;font-weight:800;color:#2563eb">5</div>
+        <div style="font-size:14px;color:#334155;margin-top:6px">production systems delivered</div>
+      </div>
+      <div style="text-align:center;transition:transform .25s" style-hover="transform:translateY(-4px)">
+        <div style="font-size:36px;font-weight:800;color:#2563eb">3,000+</div>
+        <div style="font-size:14px;color:#334155;margin-top:6px">requests/sec optimized (LAOID)</div>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width:1120px;margin:0 auto;padding:72px 48px">
+    <h2 style="font-size:26px;font-weight:700;color:#0f172a;margin:0 0 24px">Core Technologies</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:12px">
+      <sc-for list="{{ techStack }}" as="tech" hint-placeholder-count="8">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:500;padding:8px 16px;border-radius:20px;background:#ecfeff;color:#0891b2;border:1px solid #a5f3fc;transition:all .2s;display:inline-block" style-hover="transform:translateY(-3px) scale(1.04);box-shadow:0 8px 16px rgba(8,145,178,0.2);border-color:#0891b2">{{ tech }}</span>
+      </sc-for>
+    </div>
+  </section>
+
+  <section style="background:#f5f9ff;border-top:1px solid #e5e7eb;padding:72px 48px">
+    <div style="max-width:1120px;margin:0 auto">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:32px;flex-wrap:wrap;gap:12px">
+        <h2 style="font-size:26px;font-weight:700;color:#0f172a;margin:0">Featured Projects</h2>
+        <a href="Projects.dc.html" style="font-size:15px;font-weight:600;text-decoration:none">View all projects →</a>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:24px">
+        <sc-for list="{{ featuredProjects }}" as="p" hint-placeholder-count="2">
+          <a href="ProjectDetail.dc.html" style="display:block;background:#ffffff;border:1px solid #e5e7eb;border-top:3px solid #2563eb;border-radius:14px;padding:28px;text-decoration:none;box-shadow:0 1px 2px rgba(15,23,42,0.04);transition:transform .25s,box-shadow .25s" style-hover="transform:translateY(-6px);box-shadow:0 20px 36px rgba(37,99,235,0.18)">
+            <div style="font-size:13px;font-weight:600;color:#2563eb;font-family:'JetBrains Mono',monospace;margin-bottom:8px">{{ p.time }}</div>
+            <div style="font-size:19px;font-weight:700;color:#0f172a;margin-bottom:10px">{{ p.title }}</div>
+            <p style="font-size:14.5px;line-height:1.6;color:#334155;margin:0 0 16px">{{ p.desc }}</p>
+            <div style="display:flex;gap:8px;flex-wrap:wrap">
+              <sc-for list="{{ p.tech }}" as="t" hint-placeholder-count="4">
+                <span style="font-family:'JetBrains Mono',monospace;font-size:11.5px;padding:4px 10px;border-radius:14px;background:#ecfeff;color:#0891b2">{{ t }}</span>
+              </sc-for>
+            </div>
+          </a>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <section style="position:relative;max-width:1120px;margin:0 auto;padding:80px 48px;text-align:center;overflow:hidden">
+    <h2 style="font-size:30px;font-weight:800;color:#0f172a;margin:0 0 16px">Looking for a reliable Backend Developer?</h2>
+    <p style="font-size:16px;color:#334155;margin:0 0 32px">Happy to share more about my experience and the systems I've shipped.</p>
+    <a href="Contact.dc.html" style="display:inline-block;padding:14px 32px;background:linear-gradient(135deg,#2563eb,#0891b2);color:#fff;border-radius:10px;text-decoration:none;font-weight:600;font-size:15px;box-shadow:0 10px 26px rgba(37,99,235,0.3);transition:transform .25s,box-shadow .25s" style-hover="transform:translateY(-3px) scale(1.03);box-shadow:0 14px 32px rgba(37,99,235,0.42)">Contact Me</a>
+  </section>
+
+  <footer style="background:#0f172a;color:#f8fafc;padding:48px;display:flex;flex-direction:column;align-items:center;gap:16px;background-image:linear-gradient(#0f172a,#0f172a),linear-gradient(90deg,#2563eb,#06b6d4);background-origin:border-box;background-clip:padding-box,border-box;border-top:3px solid transparent">
+    <div style="display:flex;gap:24px;flex-wrap:wrap">
+      <a href="https://github.com/nvlinhdev" style="color:#f8fafc;text-decoration:none;font-size:14px">GitHub</a>
+      <a href="https://linkedin.com/in/nvlinhdev" style="color:#f8fafc;text-decoration:none;font-size:14px">LinkedIn</a>
+      <a href="mailto:linhnv.work.dev@gmail.com" style="color:#f8fafc;text-decoration:none;font-size:14px">Email</a>
+    </div>
+    <div style="font-size:13px;color:#94a3b8">© 2026 Nguyen Van Linh</div>
+  </footer>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      techStack: ['Java', 'Spring Boot', 'Microservices', 'PostgreSQL', 'Docker', 'AWS', 'Kafka', 'Redis'],
+      featuredProjects: [
+        { time: 'Mar 2026 – Present', title: 'LAOONE – Super App & CMS', desc: 'A Super App platform integrating multiple Mini Apps with a centralized CMS and multi-channel notifications.', tech: ['Java', 'Spring Boot', 'PostgreSQL', 'Redis', 'FCM'] },
+        { time: 'Feb 2026 – Present', title: 'LAOID – National ID & SSO', desc: 'A national digital identity and SSO platform, tuned to serve 3,000+ RPS with Java 21 Virtual Threads.', tech: ['Java 21', 'OAuth2', 'JWT', 'Redis Streams', 'MariaDB'] }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

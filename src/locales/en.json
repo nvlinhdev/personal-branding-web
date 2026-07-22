@@ -1,0 +1,196 @@
+{
+  "common": {
+    "nav": { "home": "Home", "about": "About", "projects": "Projects", "contact": "Contact" },
+    "footer": { "name": "Nguyen Van Linh" }
+  },
+  "home": {
+    "badge": "Backend Developer",
+    "name": "Nguyen Van Linh",
+    "bio": "Middle Backend Developer with 3+ years of experience building enterprise systems using Java Spring Boot. Experienced in designing and developing Microservices, RESTful APIs, and system integrations; proficient in PostgreSQL, Docker, Git, and AWS; a strong communicator in Agile/Scrum settings.",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Get in Touch",
+    "stats": [
+      { "value": "3+", "label": "years of backend experience" },
+      { "value": "5", "label": "production systems delivered" },
+      { "value": "3,000+", "label": "requests/sec optimized (LAOID)" }
+    ],
+    "techStackTitle": "Core Technologies",
+    "techStack": ["Java", "Spring Boot", "Microservices", "PostgreSQL", "Docker", "AWS", "Kafka", "Redis"],
+    "featuredTitle": "Featured Projects",
+    "viewAllProjects": "View all projects →",
+    "featuredSlugs": ["laoone", "laoid"],
+    "closing": {
+      "title": "Looking for a reliable Backend Developer?",
+      "subtitle": "Happy to share more about my experience and the systems I've shipped.",
+      "button": "Contact Me"
+    }
+  },
+  "about": {
+    "eyebrow": "ABOUT",
+    "title": "About Me",
+    "bio": "Middle Backend Developer with 3+ years of experience building enterprise systems using Java Spring Boot. Experienced in business requirement analysis, technical solution proposals, and designing/developing Microservices, RESTful APIs, and system integrations in production environments. Proficient in PostgreSQL, capable of building and optimizing Stored Procedures, and skilled with Docker, Git, and AWS. A strong communicator who collaborates effectively with BrSEs, clients, and project members in Agile/Scrum settings.",
+    "education": {
+      "label": "EDUCATION",
+      "school": "FPT University",
+      "majorLabel": "MAJOR",
+      "major": "Software Engineering"
+    },
+    "skillsTitle": "Skills",
+    "skillGroups": [
+      { "label": "Languages & Frameworks", "items": ["Java Core", "Spring Framework", "Spring Boot", "ReactJS", "JavaScript", "HTML5", "CSS3"] },
+      { "label": "Architecture & API", "items": ["RESTful API", "Microservices", "gRPC"] },
+      { "label": "Database", "items": ["PostgreSQL", "MySQL", "MariaDB", "SQL Server", "Stored Procedure"] },
+      { "label": "Data Infrastructure & Caching", "items": ["Redis", "Redis Streams", "Kafka", "Elasticsearch"] },
+      { "label": "Security & Authentication", "items": ["OAuth2", "JWT", "SSO Authentication"] },
+      { "label": "DevOps & Infrastructure", "items": ["Docker", "Git", "GitLab CI/CD", "AWS EC2/Lambda/S3/RDS", "Linux Server", "Nginx"] },
+      { "label": "Monitoring", "items": ["Prometheus", "Grafana", "Node Exporter", "Redis Exporter", "MySQL Exporter"] }
+    ],
+    "experienceTitle": "Work Experience"
+  },
+  "projects": {
+    "eyebrow": "PROJECTS",
+    "title": "Projects I've Worked On",
+    "subtitle": "5 enterprise systems, ranging from monolithic applications to large-scale Microservices architecture.",
+    "viewDetail": "View details →"
+  },
+  "projectDetail": {
+    "backLink": "← All projects",
+    "descriptionTitle": "Description",
+    "responsibilitiesTitle": "Responsibilities",
+    "techTitle": "Technologies Used",
+    "contactCta": "Contact me about this project",
+    "notFound": {
+      "title": "Project not found",
+      "subtitle": "The project you're looking for doesn't exist.",
+      "backLink": "← Back to projects"
+    }
+  },
+  "contact": {
+    "eyebrow": "CONTACT",
+    "title": "Let's Connect",
+    "subtitle": "Happy to discuss collaboration or job opportunities. Pick a channel below.",
+    "emailLabel": "Email",
+    "githubLabel": "GitHub",
+    "linkedinLabel": "LinkedIn"
+  },
+  "notFound": {
+    "title": "404 – Page Not Found",
+    "subtitle": "The page you're looking for doesn't exist.",
+    "backHome": "Back to Home"
+  },
+  "projectsData": [
+    {
+      "slug": "onlinequizz",
+      "time": "May 2023 – Mar 2024",
+      "title": "ONLINEQUIZZ – Online Examination System",
+      "role": "Fullstack Developer",
+      "team": "Team of 4",
+      "homeDesc": null,
+      "listDesc": "Built a question bank management and online examination system for students.",
+      "aboutDesc": "Built an online quiz bank management and examination system. Developed the backend with Java Servlet, JSP, and JDBC; implemented registration/login, Google Login integration, and performance tuning.",
+      "detailDescription": "Built a question bank management and online examination system for students. The system supports exam creation, automatic grading, and user account management.",
+      "responsibilities": [
+        "Developed the backend using Java Servlet, JSP, and JDBC.",
+        "Designed the database and built exam management features.",
+        "Built registration, login, and user authentication features.",
+        "Integrated Google Login.",
+        "Optimized source code and improved system performance.",
+        "Participated in bug fixing and supported product deployment."
+      ],
+      "techShort": ["Java Servlet", "JSP", "JDBC", "MySQL"],
+      "techFull": ["Java Servlet", "JSP", "JDBC", "MySQL", "HTML", "CSS", "JavaScript"]
+    },
+    {
+      "slug": "transitlink",
+      "time": "Apr 2024 – Sep 2025",
+      "title": "TRANSITLINK – Smart Shuttle Dispatch System",
+      "role": "Backend Developer",
+      "team": "Team of 6",
+      "homeDesc": null,
+      "listDesc": "Manage and dispatch transit vehicles, supporting search, tracking, and real-time data operations.",
+      "aboutDesc": "Built the Spring Boot backend, RESTful APIs, Redis Cache, and Elasticsearch for search; implemented realtime features with WebSocket STOMP; deployed with Docker Compose, Nginx, and GitLab CI/CD.",
+      "detailDescription": "Built a system to manage and dispatch transit vehicles, supporting search, tracking, and real-time data operations. The system serves fleet operations handling large volumes of data.",
+      "responsibilities": [
+        "Built the backend using Java Spring Boot.",
+        "Designed the database and built RESTful APIs.",
+        "Integrated Redis Cache to improve system performance.",
+        "Integrated Elasticsearch for data search.",
+        "Built real-time features using WebSocket STOMP.",
+        "Documented APIs using Swagger.",
+        "Deployed the application to a VPS using Docker Compose.",
+        "Set up Nginx Reverse Proxy and HTTPS.",
+        "Built the GitLab CI/CD pipeline."
+      ],
+      "techShort": ["Java", "Spring Boot", "Redis", "Elasticsearch", "Docker"],
+      "techFull": ["Java", "Spring Boot", "Redis", "Elasticsearch", "WebSocket", "Swagger", "Docker", "Nginx", "GitLab CI/CD", "MySQL"]
+    },
+    {
+      "slug": "partner-warehouse-asset",
+      "time": "Oct 2025 – Feb 2026",
+      "title": "Partner, Warehouse & Asset Management System",
+      "role": "Backend Developer",
+      "team": "Team of 10+",
+      "homeDesc": null,
+      "listDesc": "Manage partners, warehouses, and assets with a Microservices architecture serving enterprise clients.",
+      "aboutDesc": "Developed Microservices with Spring Boot, RESTful APIs, and gRPC; integrated SSO/OAuth2/JWT and Kafka for asynchronous processing for enterprise clients.",
+      "detailDescription": "Contributed to building a partner, warehouse, and asset management system with a Microservices architecture serving enterprise clients. The system integrates multiple independent services processing large-scale data.",
+      "responsibilities": [
+        "Analyzed business requirements and contributed to technical solution design.",
+        "Developed Microservices using Java Spring Boot.",
+        "Designed and implemented RESTful APIs and gRPC.",
+        "Integrated SSO Authentication, OAuth2, and JWT.",
+        "Integrated Kafka for asynchronous processing between systems.",
+        "Optimized performance and handled issues in the production environment.",
+        "Collaborated with BA, Testers, and DevOps throughout development."
+      ],
+      "techShort": ["Java", "Spring Boot", "Kafka", "gRPC", "OAuth2"],
+      "techFull": ["Java", "Spring Boot", "Microservices", "Kafka", "gRPC", "OAuth2", "JWT", "PostgreSQL", "Docker", "GitLab CI/CD"]
+    },
+    {
+      "slug": "laoone",
+      "time": "Mar 2026 – Present",
+      "title": "LAOONE – Super App & Content Management CMS",
+      "role": "Backend Lead / DevOps Engineer",
+      "team": "Team of 15",
+      "homeDesc": "A Super App platform integrating multiple Mini Apps with a centralized CMS and multi-channel notifications.",
+      "listDesc": "A Super App platform integrating multiple Mini Apps with a centralized CMS, notifications, and data synchronization.",
+      "aboutDesc": "Led backend development for the Super App, multi-channel authentication (Email/SMS OTP), Notifications + FCM, content management CMS, and PostgreSQL/Redis optimization.",
+      "detailDescription": "Built a Super App platform integrating multiple Mini Apps with a CMS for content management, UI configuration, notification management, and centralized data synchronization. The system serves thousands of users with a flexible, scalable architecture customizable per service.",
+      "responsibilities": [
+        "Analyzed business requirements, designed technical solutions, and led backend service development.",
+        "Designed and implemented user Authentication & Authorization supporting Email OTP and SMS OTP.",
+        "Built a multi-channel Notification system, managed notification templates, and integrated Firebase Cloud Messaging (FCM).",
+        "Developed a mechanism to synchronize user and business data from the Mini App platform into the central system.",
+        "Built a CMS for managing content, UI configuration, themes, and displayed components.",
+        "Designed and optimized the PostgreSQL database and Redis Cache to improve throughput and load capacity.",
+        "Set up deployment environments, containerized services with Docker, and established operational processes.",
+        "Performed code reviews, provided technical support to team members, and resolved performance and security issues."
+      ],
+      "techShort": ["Java", "Spring Boot", "PostgreSQL", "Redis", "FCM"],
+      "techFull": ["Java", "Spring Boot", "PostgreSQL", "Redis Cache", "Docker", "Firebase Cloud Messaging (FCM)", "RESTful API", "Git"]
+    },
+    {
+      "slug": "laoid",
+      "time": "Feb 2026 – Present",
+      "title": "LAOID – National Digital Identity & Single Sign-On (SSO)",
+      "role": "Backend Developer / DevOps Engineer",
+      "team": "Team of 10",
+      "homeDesc": "A national digital identity and SSO platform, tuned to serve 3,000+ RPS with Java 21 Virtual Threads.",
+      "listDesc": "A national digital identity and SSO platform with centralized session management, high security, achieving 3,000+ RPS.",
+      "aboutDesc": "Built the SSO flow with OAuth2/JWT, session management with Redis Streams, upgraded to Java 21 Virtual Threads, achieving over 3,000 requests/second.",
+      "detailDescription": "Built a national digital identity platform and Single Sign-On (SSO) system that lets users authenticate once and access multiple applications across the ecosystem. Centralized session management, high security, and scalability to serve high traffic volumes.",
+      "responsibilities": [
+        "Developed authentication/authorization services for the entire SSO ecosystem.",
+        "Built the SSO flow based on OAuth2/JWT.",
+        "Managed sessions: Access/Refresh Tokens, Token Rotation/Exchange, Revoke, and system-wide Logout.",
+        "Synchronized sessions asynchronously using Redis Streams.",
+        "Set up Rate Limiting and Session Management.",
+        "Upgraded from Java 17 to 21 with Virtual Threads.",
+        "Performed performance tuning for HikariCP and Lettuce.",
+        "Achieved over 3,000 requests per second (RPS)."
+      ],
+      "techShort": ["Java 21", "OAuth2", "JWT", "Redis Streams", "MariaDB"],
+      "techFull": ["Java 21", "Spring Boot", "OAuth2", "JWT", "MariaDB", "Redis Cache", "Redis Streams", "Virtual Threads", "HikariCP", "Lettuce", "Docker", "RESTful API", "Git"]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; background: #ffffff; }
+    a { color: #2563eb; }
+    a:hover { color: #0891b2; }
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+</helmet>
+<div style="font-family:'Be Vietnam Pro',sans-serif;background:#ffffff;color:#0f172a">
+
+  <header style="display:flex;align-items:center;justify-content:space-between;padding:20px 48px;border-bottom:1px solid #e5e7eb;background:rgba(255,255,255,0.85);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10;flex-wrap:wrap;gap:16px">
+    <a href="Home.dc.html" style="display:flex;align-items:center;gap:10px;text-decoration:none">
+      <div style="width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,#2563eb,#06b6d4);color:#ffffff;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px">NVL</div>
+      <div style="font-weight:700;font-size:16px;color:#0f172a">Nguyễn Văn Linh</div>
+    </a>
+    <nav style="display:flex;gap:32px;flex-wrap:wrap">
+      <a href="Home.dc.html" style="text-decoration:none;font-size:15px;font-weight:500;color:#334155">Home</a>
+      <a href="About.dc.html" style="text-decoration:none;font-size:15px;font-weight:600;color:#2563eb">About</a>
+      <a href="Projects.dc.html" style="text-decoration:none;font-size:15px;font-weight:500;color:#334155">Projects</a>
+      <a href="Contact.dc.html" style="text-decoration:none;font-size:15px;font-weight:500;color:#334155">Contact</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:16px">
+      <div style="display:flex;border:1px solid #e5e7eb;border-radius:8px;overflow:hidden;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600">
+        <span style="padding:6px 10px;background:linear-gradient(135deg,#2563eb,#0891b2);color:#fff">VI</span>
+        <span style="padding:6px 10px;color:#64748b">EN</span>
+      </div>
+      <a href="https://github.com/nvlinhdev" style="width:32px;height:32px;border-radius:8px;border:1px solid #e5e7eb;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:#334155;text-decoration:none;transition:all .2s" style-hover="border-color:#2563eb;color:#2563eb;transform:translateY(-2px)">GH</a>
+      <a href="https://linkedin.com/in/nvlinhdev" style="width:32px;height:32px;border-radius:8px;border:1px solid #e5e7eb;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:#334155;text-decoration:none;transition:all .2s" style-hover="border-color:#2563eb;color:#2563eb;transform:translateY(-2px)">in</a>
+    </div>
+  </header>
+
+  <section style="max-width:920px;margin:0 auto;padding:72px 48px 48px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;color:#2563eb;margin-bottom:16px">GIỚI THIỆU</div>
+    <h1 style="font-size:38px;font-weight:800;margin:0 0 24px;background:linear-gradient(90deg,#2563eb,#06b6d4);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;display:inline-block">Về tôi</h1>
+    <p style="font-size:17px;line-height:1.8;color:#334155;margin:0">Middle Backend Developer với hơn 3 năm kinh nghiệm phát triển hệ thống doanh nghiệp sử dụng Java Spring Boot. Có kinh nghiệm tham gia phân tích yêu cầu nghiệp vụ, đề xuất giải pháp kỹ thuật, thiết kế và phát triển Microservices, RESTful API và tích hợp hệ thống trên môi trường production. Thành thạo PostgreSQL, có khả năng xây dựng Stored Procedure, làm việc với Docker, Git và AWS. Có khả năng giao tiếp, phối hợp hiệu quả với BrSE, khách hàng và các thành viên trong dự án theo mô hình Agile/Scrum.</p>
+  </section>
+
+  <section style="max-width:920px;margin:0 auto;padding:0 48px 56px">
+    <div style="background:#f5f9ff;border:1px solid #e5e7eb;border-radius:14px;padding:28px 32px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;transition:box-shadow .25s" style-hover="box-shadow:0 14px 30px rgba(37,99,235,0.14)">
+      <div>
+        <div style="font-size:12px;font-weight:600;color:#64748b;letter-spacing:.04em;margin-bottom:4px">HỌC VẤN</div>
+        <div style="font-size:18px;font-weight:700">Đại học FPT</div>
+      </div>
+      <div>
+        <div style="font-size:12px;font-weight:600;color:#64748b;letter-spacing:.04em;margin-bottom:4px">CHUYÊN NGÀNH</div>
+        <div style="font-size:18px;font-weight:700">Kỹ thuật phần mềm</div>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width:920px;margin:0 auto;padding:0 48px 72px">
+    <h2 style="font-size:26px;font-weight:700;margin:0 0 28px">Kỹ năng</h2>
+    <div style="display:flex;flex-direction:column;gap:24px">
+      <sc-for list="{{ skillGroups }}" as="g" hint-placeholder-count="7">
+        <div>
+          <div style="font-size:14px;font-weight:700;color:#0f172a;margin-bottom:10px">{{ g.label }}</div>
+          <div style="display:flex;flex-wrap:wrap;gap:10px">
+            <sc-for list="{{ g.items }}" as="s" hint-placeholder-count="5">
+              <span style="font-family:'JetBrains Mono',monospace;font-size:13px;padding:7px 14px;border-radius:18px;background:#ecfeff;color:#0891b2;border:1px solid #a5f3fc;transition:all .2s;display:inline-block" style-hover="transform:translateY(-3px) scale(1.04);box-shadow:0 8px 16px rgba(8,145,178,0.2);border-color:#0891b2">{{ s }}</span>
+            </sc-for>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <section style="background:#f5f9ff;border-top:1px solid #e5e7eb;padding:72px 48px">
+    <div style="max-width:920px;margin:0 auto">
+      <h2 style="font-size:26px;font-weight:700;margin:0 0 40px">Kinh nghiệm làm việc</h2>
+      <div style="position:relative;padding-left:28px;border-left:2px solid #dbe4f3">
+        <sc-for list="{{ experience }}" as="e" hint-placeholder-count="5">
+          <div style="position:relative;padding-bottom:40px">
+            <div style="position:absolute;left:-34px;top:2px;width:12px;height:12px;border-radius:50%;background:linear-gradient(135deg,#2563eb,#06b6d4);border:3px solid #f5f9ff;box-shadow:0 0 0 3px rgba(37,99,235,0.15)"></div>
+            <div style="font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:600;color:#2563eb;margin-bottom:6px">{{ e.time }}</div>
+            <div style="font-size:18px;font-weight:700;color:#0f172a">{{ e.title }}</div>
+            <div style="font-size:13.5px;color:#64748b;margin:4px 0 10px">{{ e.role }} · {{ e.team }}</div>
+            <p style="font-size:14.5px;line-height:1.7;color:#334155;margin:0">{{ e.desc }}</p>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <footer style="background:#0f172a;color:#f8fafc;padding:48px;display:flex;flex-direction:column;align-items:center;gap:16px;background-image:linear-gradient(#0f172a,#0f172a),linear-gradient(90deg,#2563eb,#06b6d4);background-origin:border-box;background-clip:padding-box,border-box;border-top:3px solid transparent">
+    <div style="display:flex;gap:24px;flex-wrap:wrap">
+      <a href="https://github.com/nvlinhdev" style="color:#f8fafc;text-decoration:none;font-size:14px">GitHub</a>
+      <a href="https://linkedin.com/in/nvlinhdev" style="color:#f8fafc;text-decoration:none;font-size:14px">LinkedIn</a>
+      <a href="mailto:linhnv.work.dev@gmail.com" style="color:#f8fafc;text-decoration:none;font-size:14px">Email</a>
+    </div>
+    <div style="font-size:13px;color:#94a3b8">© 2026 Nguyễn Văn Linh</div>
+  </footer>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      skillGroups: [
+        { label: 'Ngôn ngữ & Framework', items: ['Java Core', 'Spring Framework', 'Spring Boot', 'ReactJS', 'JavaScript', 'HTML5', 'CSS3'] },
+        { label: 'Kiến trúc & API', items: ['RESTful API', 'Microservices', 'gRPC'] },
+        { label: 'Database', items: ['PostgreSQL', 'MySQL', 'MariaDB', 'SQL Server', 'Stored Procedure'] },
+        { label: 'Hạ tầng dữ liệu & Caching', items: ['Redis', 'Redis Streams', 'Kafka', 'Elasticsearch'] },
+        { label: 'Bảo mật & Xác thực', items: ['OAuth2', 'JWT', 'SSO Authentication'] },
+        { label: 'DevOps & Hạ tầng', items: ['Docker', 'Git', 'GitLab CI/CD', 'AWS EC2/Lambda/S3/RDS', 'Linux Server', 'Nginx'] },
+        { label: 'Monitoring', items: ['Prometheus', 'Grafana', 'Node Exporter', 'Redis Exporter', 'MySQL Exporter'] }
+      ],
+      experience: [
+        { time: '05/2023 – 03/2024', title: 'ONLINEQUIZZ – Hệ thống thi trắc nghiệm trực tuyến', role: 'Fullstack Developer', team: 'Team 4 người', desc: 'Xây dựng hệ thống quản lý ngân hàng câu hỏi và tổ chức thi trực tuyến. Phát triển backend bằng Java Servlet, JSP, JDBC; xây dựng đăng ký/đăng nhập, tích hợp Google Login, tối ưu hiệu năng.' },
+        { time: '04/2024 – 09/2025', title: 'TRANSITLINK – Hệ thống điều phối xe trung chuyển thông minh', role: 'Backend Developer', team: 'Team 6 người', desc: 'Xây dựng backend Spring Boot, RESTful API, Redis Cache, Elasticsearch cho tìm kiếm, realtime bằng WebSocket STOMP; triển khai Docker Compose, Nginx, GitLab CI/CD.' },
+        { time: '10/2025 – 02/2026', title: 'Hệ thống quản lý đối tác, kho và tài sản', role: 'Backend Developer', team: 'Team 10+ người', desc: 'Phát triển Microservices bằng Spring Boot, RESTful API, gRPC; tích hợp SSO/OAuth2/JWT và Kafka xử lý bất đồng bộ cho khách hàng doanh nghiệp.' },
+        { time: '03/2026 – Nay', title: 'LAOONE – Super App và hệ thống CMS quản trị nội dung', role: 'Backend Lead / DevOps Engineer', team: 'Team 15 người', desc: 'Dẫn dắt phát triển backend Super App, Authentication đa kênh (Email/SMS OTP), Notification + FCM, CMS quản trị nội dung, tối ưu PostgreSQL/Redis.' },
+        { time: '02/2026 – Nay', title: 'LAOID – Hệ thống định danh quốc gia và SSO', role: 'Backend Developer / DevOps Engineer', team: 'Team 10 người', desc: 'Xây dựng luồng SSO OAuth2/JWT, quản lý phiên với Redis Streams, nâng cấp Java 21 Virtual Threads, đạt hơn 3.000 requests/giây.' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
